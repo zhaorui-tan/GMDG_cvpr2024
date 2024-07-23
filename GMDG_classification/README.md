@@ -9,7 +9,7 @@ Note that every result is averaged over three trials.
 
 
 ```angular2html
-<!--Use ResNet-50 with SWAD:-->
+<!--Use ResNet-50 without SWAD:-->
 --dataset TerraIncognita --ld 0.1 --shift 0.1 --d_shift 0.2 --lr_mult 12.5
 --dataset OfficeHome --ld 0.1 --lr 3e-5 --resnet_dropout 0.1 --weight_decay 1e-6 --shift 0.001 --d_shift 0.1 --lr_mult 20.0
 --dataset VLCS --checkpoint_freq 50 --tolerance_ratio 0.2 --lr 1e-5 --resnet_dropout 0.5 --weight_decay 1e-6 --ld 0.01 --shift 0.001 --d_shift 0.1 --lr_mult 10 
